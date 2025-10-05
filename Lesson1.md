@@ -57,9 +57,9 @@ pip install pydantic-settings
 ```
 my_telegram_bot/
 ├── .env
-├── .gitignore
+├── .gitignore (для тех, кто умеет работать с github)
 ├── config.py
-├── bot.py
+├── bot.py (или main.py)
 └── requirements.txt
 ```
 
@@ -100,7 +100,7 @@ BOT_TOKEN=your_bot_token_here
 
 ## Создание простого Telegram бота
 
-### Основной код бота (`bot.py`)
+### Основной код бота (`bot.py` или `main.py`)
 
 ```python
 import asyncio
